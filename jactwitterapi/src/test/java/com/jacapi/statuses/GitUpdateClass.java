@@ -15,7 +15,7 @@ import io.restassured.specification.ResponseSpecification;
 import static org.hamcrest.Matchers.*;
 import java.util.ArrayList; 
 
-public class UserTimelineTest {
+public class GitUpdateClass {
 	
 	
 	
@@ -64,6 +64,7 @@ public class UserTimelineTest {
 		System.out.println("READ TWEET 2 DIFFERENT METHOD TO USE4");
 		System.out.println("READ TWEET 2 DIFFERENT METHOD TO USE5");
 		System.out.println("READ TWEET 2 DIFFERENT METHOD TO USE6");
+
 
 		System.out.println(NameList);
 		Assert.assertTrue(NameList.contains("jacquiQA"));
